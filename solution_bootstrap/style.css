@@ -1,0 +1,102 @@
+body {
+    background-color: #4A1507;
+    font-family: "Roboto", sans-serif;
+    color: white; 
+}
+
+header .logo {
+    margin-top: 20px; 
+}
+
+h1 {
+    font-family: "Inspiration", cursive;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+nav {
+    background-color: #440B02;
+}
+
+nav ul.nav li.nav-item a.nav-link {
+    border-right: #7B532A solid 2px;
+    position: relative; /* Nécessaire pour les pseudo-éléments */ 
+}
+
+nav ul.nav li.nav-item:last-child a.nav-link {
+    border-right: none;
+}
+
+nav ul.nav li.nav-item a.nav-link:hover {
+    color: #ED3E00; 
+    background-color: #401B0D;
+
+}
+
+nav ul.nav li.nav-item a.nav-link.active {
+    background-color: transparent;
+}
+
+.container a.nav-link {
+    color: white; 
+}
+
+.description-container {
+    background-color: #78A899;
+}
+
+.description img.img-fluid {
+    max-width: 250px;
+    height: auto;
+    padding: 15px 0 0 15px;
+}
+
+.gallery-container {
+    background-color: #DDD9C6;
+    padding:  40px;
+}
+
+.gallery h3 {
+    color: #78A899; 
+    font-size: 24px;
+    text-align: left;
+}
+
+
+.gallery-item p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.hidden {
+    display: none;
+}
+
+.animate {
+    animation: slideIn 1s ease;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

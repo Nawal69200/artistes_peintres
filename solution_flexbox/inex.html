@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les artistes peintres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6da8572288.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../Ressources_Graphiques/Ressources_Graphiques/img/logo-art-peinture.png" alt="logo des artistes peintres">
+            <h1>Les artistes peintres</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showGallery('picasso')">Picasso</a></li>
+                    <li><a href="#" onclick="showGallery('caillebotte')">Caillebotte</a></li>
+                    <li><a href="#" onclick="showGallery('vermeer')">Vermeer</a></li>
+                    <li><a href="#" onclick="showGallery('kandinsky')">Kandinsky</a></li>
+                    <li><a href="#" onclick="showGallery('monet')">Monet</a></li>
+                    <li><a href="#" onclick="showGallery('vangogh')">Van Gogh</a></li>
+                </ul>
+            </nav>
+            <div class="description-container">
+                <div class="description">
+                    <img src="../Ressources_Graphiques/Ressources_Graphiques/img/img_baniere.png" alt="baniere">
+                    <div class="image-text">
+                        <h2>Ce que nous faisons</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, labore modi corrupti optio aliquid dolorum ut nostrum nam ab adipisci iusto odit sequi eum magnam omnis provident pariatur et dignissimos doloribus impedit animi quas aliquam! Quisquam, rerum? Officiis deleniti cupiditate iure earum quo. Vero, at suscipit inventore quam, illum veritatis animi in et a culpa reprehenderit cumque vitae sequi rerum?</p>
+                    </div>
+                </div>
+                <div class="description-list-gallery-container">
+                    <ul class="description-list">
+                        <li><a href="#">Nos Productions</a></li>
+                        <li><a href="#">Qui Sommes Nous</a></li>
+                        <li><a href="#">Notre Philosophie</a></li>
+                        <li><a href="#">Nous Contacter</a></li>
+                    </ul>
+                    <div id="galleries" class="gallery-container">
+                        <div id="picasso" class="gallery">
+                            <h3>Galerie Picasso</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Autoportrait_Picasso.png" alt="Autoportrait">
+                                <p>Autoportrait</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Le_Peintre_et_son_Modele.png" alt="peintre et soin modele">
+                                <p>Le Peintre et son Modèle</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Marie_Therese.png" alt="Marie-Thérèse">
+                                <p>Marie-Thérèse</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Demoiselles_Avignon.png" alt="demoiselle d'Avignon">
+                                <p>Demoiselles d'Avignon</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Femme_qui_pleure.png" alt="femme qui pleure">
+                                <p>Femme qui Pleure</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/guernica.png" alt="Guernica">
+                                <p>Guernica</p>
+                            </div>
+                        </div>
+                        
+                        <div id="caillebotte" class="gallery">
+                            <h3>Galerie Caillebotte</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Jour_de_pluie_à_Paris.png" alt="Jour de pluie à Paris">
+                                <p>Jour de pluie à Paris (1877)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Peintres_en_batiment.png" alt="Peintres_en_batiment">
+                                <p>Les Peintres en bâtiment (1877)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Raboteurs_de_parquet.png" alt="Raboteurs_de_parquet">
+                                <p>Les Raboteurs de Parquet (1877)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img//Périssoires_sur_l_Yerres.png" alt="Périssoires_sur_l’Yerres">
+                                <p>Périssoires sur l'Yerres (1877)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Autoportrait_Caillebotte.png" alt="Autoportrait_Caillebotte">
+                                <p>Autoportrait (1877)</p>
+                            </div>
+                        </div>
+                        
+                        <div id="vermeer" class="gallery">
+                            <h3>Galerie Vermeer</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/fille_a_la-perle.png" alt="fille a la perle">
+                                <p>Fille à la Perle</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Laitière.png" alt="la laitière">
+                                <p>La Laitière</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Liseuse_à_la_fenêtre.png" alt="la liseude à la fenêtre">
+                                <p>La Liseuse à la Fenêtre</p>
+                            </div>
+                        </div>
+                        
+                        <div id="kandinsky" class="gallery">
+                            <h3>Galerie Kandinsky</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/tableau-en-bleu-1925-.png" alt="tableau en bleu">
+                                <p>Tableau en Bleu (1925)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Jaune_rouge_bleu.png" alt="jaune rouge bleu">
+                                <p>Jaune Rouge Bleu (1925)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Composition-1939.png" alt="composition">
+                                <p>Composition X (1939)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Composition-VI-1913.png" alt="composition VI">
+                                <p>Composition VI (1913)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Moscou-1916.png" alt="moscou">
+                                <p>Moscou (1916)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Noir-et-violet-1923.png" alt="noir et violet">
+                                <p>Noir et Violet (19823)</p>
+                            </div>
+                        </div>
+                        
+                        <div id="monet" class="gallery">
+                            <h3>Galerie Monet</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Le_déjeuner-1873.png" alt="le dejeuner">
+                                <p>Le déjeuner (1873)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Impression_soleil_levant-1872.png" alt="impression soleil levant">
+                                <p>Impression Soleil Levant (1872)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Nymphéas-1916.png" alt="Nymphéas">
+                                <p>Nymphéas (1916)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Promenade.png" alt="promenade">
+                                <p>La Promenade</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Les_Coquelicots.png" alt="coquelicots">
+                                <p>Les Coquelicots</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Madame_Monet_et_Enfant-1875.png" alt="madame et l'enfant">
+                                <p>Madame Monet et de l'Enfant</p>
+                            </div>
+                        </div>
+                        
+                        <div id="vangogh" class="gallery">
+                            <h3>Galerie Van Gogh</h3>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_nuit_étoilée-1889.png" alt="la nuit étoiléé">
+                                <p>La Nuit Etoilée (1889)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Terrasse_café.png" alt="terrasse café">
+                                <p>Terrasse de Café</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Sieste.png" alt="la sieste">
+                                <p>La Sièste</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Les_Iris-1889.png" alt="les iris">
+                                <p>Les Iris (1888)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Chambre_de_van_gogh-1889-.png" alt="chambre de Van Gogh">
+                                <p>Chambre de Van Gogh (1888)</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Campagne_Montagneuse-1889.jpg" alt="campagne montagneuse">
+                                <p>Campagne Montagneuse</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <i class="fa-regular fa-copyright"></i>
+            <p>Copyright Art Fabric</p>  
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

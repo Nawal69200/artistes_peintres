@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les artistes peintres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="mb-4">
+            <div class="d-flex align-items-center">
+                <img src="../Ressources_Graphiques/Ressources_Graphiques/img/logo-art-peinture.png" alt="logo des artistes peintres" class="me-2 logo">
+
+                <h1 class="m-0">Les artistes peintres</h1>
+            </div>
+        </header>
+        <main>
+            <nav class="mb-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="picasso">Picasso</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="caillebotte">Caillebotte</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="vermeer">Vermeer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="kandinsky">Kandinsky</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="monet">Monet</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-gallery="vangogh">Van Gogh</a></li>
+                </ul> 
+            </nav>
+            <div class="description-container mb-4">
+                <div class="description">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="../Ressources_Graphiques/Ressources_Graphiques/img/img_baniere.png" alt="baniere" class="img-fluid mb-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-text">
+                                <h2>Ce que nous faisons</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, labore modi corrupti optio aliquid dolorum ut nostrum nam ab adipisci iusto odit sequi eum magnam omnis provident pariatur et dignissimos doloribus impedit animi quas aliquam! Quisquam, rerum? Officiis deleniti cupiditate iure earum quo. Vero, at suscipit inventore quam, illum veritatis animi in et a culpa reprehenderit cumque vitae sequi rerum?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-list-gallery-container">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Nos Productions</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Qui Sommes Nous</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Notre Philosophie</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nous Contacter</a></li>
+                    </ul>
+                    <div id="galleries" class="gallery-container">
+                        <div id="picasso" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Picasso</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Autoportrait_Picasso.png" alt="Autoportrait" class="img-fluid">
+                                        <p>Autoportrait</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Le_Peintre_et_son_Modele.png" alt="Le Peintre et son Modèle" class="img-fluid">
+                                        <p>Le Peintre et son Modèle</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Marie_Therese.png" alt="Marie-Thérèse" class="img-fluid">
+                                        <p>Marie-Thérèse</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Demoiselles_Avignon.png" alt="Demoiselles d'Avignon" class="img-fluid">
+                                        <p>Demoiselles d'Avignon</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Femme_qui_pleure.png" alt="Femme qui Pleure" class="img-fluid">
+                                        <p>Femme qui Pleure</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/guernica.png" alt="Guernica" class="img-fluid">
+                                        <p>Guernica</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          
+                        <div id="caillebotte" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Caillebotte</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Jour_de_pluie_à_Paris.png" alt="Jour de pluie à Paris" class="img-fluid">
+                                        <p>Jour de pluie à Paris (1877)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Peintres_en_batiment.png" alt="Peintres en bâtiment" class="img-fluid">
+                                        <p>Les Peintres en bâtiment (1877)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Raboteurs_de_parquet.png" alt="Raboteurs de Parquet" class="img-fluid">
+                                        <p>Les Raboteurs de Parquet (1877)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Périssoires_sur_l_Yerres.png" alt="Périssoires sur l’Yerres" class="img-fluid">
+                                        <p>Périssoires sur l'Yerres (1877)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Autoportrait_Caillebotte.png" alt="Autoportrait Caillebotte" class="img-fluid">
+                                        <p>Autoportrait (1877)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="vermeer" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Vermeer</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/fille_a_la-perle.png" alt="Fille à la Perle" class="img-fluid">
+                                        <p>Fille à la Perle</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Laitière.png" alt="La Laitière" class="img-fluid">
+                                        <p>La Laitière</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Liseuse_à_la_fenêtre.png" alt="La Liseuse à la Fenêtre" class="img-fluid">
+                                        <p>La Liseuse à la Fenêtre</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kandinsky" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Kandinsky</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/tableau-en-bleu-1925-.png" alt="Tableau en Bleu (1925)" class="img-fluid">
+                                        <p>Tableau en Bleu (1925)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Jaune_rouge_bleu.png" alt="Jaune Rouge Bleu (1925)" class="img-fluid">
+                                        <p>Jaune Rouge Bleu (1925)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Composition-1939.png" alt="Composition X (1939)" class="img-fluid">
+                                        <p>Composition X (1939)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Composition-VI-1913.png" alt="Composition VI (1913)" class="img-fluid">
+                                        <p>Composition VI (1913)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Moscou-1916.png" alt="Moscou (1916)" class="img-fluid">
+                                        <p>Moscou (1916)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Noir-et-violet-1923.png" alt="Noir et Violet (19823)" class="img-fluid">
+                                        <p>Noir et Violet (19823)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="monet" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Monet</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Le_déjeuner-1873.png" alt="Le déjeuner (1873)" class="img-fluid">
+                                        <p>Le déjeuner (1873)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Impression_soleil_levant-1872.png" alt="Impression Soleil Levant (1872)" class="img-fluid">
+                                        <p>Impression Soleil Levant (1872)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Nymphéas-1916.png" alt="Nymphéas (1916)" class="img-fluid">
+                                        <p>Nymphéas (1916)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Promenade.png" alt="La Promenade" class="img-fluid">
+                                        <p>La Promenade</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Les_Coquelicots.png" alt="Les Coquelicots" class="img-fluid">
+                                        <p>Les Coquelicots</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Madame_Monet_et_Enfant-1875.png" alt="Madame Monet et de l'Enfant" class="img-fluid">
+                                        <p>Madame Monet et de l'Enfant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="vangogh" class="gallery hidden">
+                            <h3 class="mb-4">Galerie Van Gogh</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_nuit_étoilée-1889.png" alt="La Nuit Étoilée (1889)" class="img-fluid">
+                                        <p>La Nuit Étoilée (1889)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Terrasse_café.png" alt="Terrasse de Café" class="img-fluid">
+                                        <p>Terrasse de Café</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Sieste.png" alt="La Sieste" class="img-fluid">
+                                        <p>La Sieste</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Les_Iris-1889.png" alt="Les Iris (1888)" class="img-fluid">
+                                        <p>Les Iris (1888)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/La_Chambre_de_van_gogh-1889-.png" alt="Chambre de Van Gogh (1888)" class="img-fluid">
+                                        <p>Chambre de Van Gogh (1888)</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gallery-item">
+                                        <img src="../Ressources_Graphiques/Ressources_Graphiques/img/Campagne_Montagneuse-1889.jpg" alt="Campagne Montagneuse" class="img-fluid">
+                                        <p>Campagne Montagneuse</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                                                                  
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <footer class="text-center py-4">
+            <p>&copy; Copyright Art Fabric</p>
+        </footer>
+    </div> 
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+   
